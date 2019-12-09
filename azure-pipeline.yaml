@@ -63,5 +63,5 @@ stages:
     - task: PublishTestResults@2
       inputs:
         testResultsFormat: 'JUnit' # Options: JUnit, NUnit, VSTest, xUnit, cTest
-        testResultsFiles: '**/report.xml'
+        testResultsFiles: '$(System.DefaultWorkingDirectory)/test_output/report.xml'
         failTaskOnFailedTests: true
