@@ -31,7 +31,8 @@ stages:
     pool:
       vmImage: $(vmImageName)
     steps:
-    - task: Docker@2
+    # e28912f1-0114-4464-802a-a3a35437fd16 = Docker ?!?
+    - task: e28912f1-0114-4464-802a-a3a35437fd16@2
       displayName: Build Tests Container Image
       inputs:
         command: build
