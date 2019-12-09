@@ -1,4 +1,4 @@
-FROM jcorioland/azure-terratest:0.12.3
+FROM jcorioland/azure-terratest:0.12.17
 
 RUN mkdir /go/src/ossparis-demo
 COPY . /go/src/ossparis-demo
