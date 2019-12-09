@@ -5,3 +5,4 @@ vendor/
 test_output.log
 test_output/
 debug.test
+tf/terraform.tfstate.backup
