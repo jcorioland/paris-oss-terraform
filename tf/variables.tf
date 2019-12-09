@@ -7,3 +7,4 @@ variable "location" {
   description = "Azure location"
   default     = "francecentral"
 }
+
